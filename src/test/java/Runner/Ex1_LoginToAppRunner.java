@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"Steps"}
 		)
 
-public class LoginToAppRunner extends AbstractTestNGCucumberTests
+public class Ex1_LoginToAppRunner extends AbstractTestNGCucumberTests
 {
 
 }

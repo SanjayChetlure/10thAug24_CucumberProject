@@ -53,6 +53,25 @@ public class LoginToAppWithoutTDSteps
 	{
 		System.out.println("----forgotten pwd page visible----");
 	}
+	
+	
+	@When("user enter username {string}")
+	public void user_enter_username(String string) 
+	{
+		System.out.println("Enter username: "+string);
+	}
+
+	@When("user enter password {string}")
+	public void user_enter_password(String string) 
+	{
+		System.out.println("Enter password: "+string);
+	}
+
+	@When("user enter pin {int}")
+	public void user_enter_pin(Integer int1) 
+	{
+		System.out.println("Enter Pin: "+ int1);
+	}
 
 	
 }
