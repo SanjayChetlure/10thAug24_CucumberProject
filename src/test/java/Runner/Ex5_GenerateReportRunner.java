@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		publish = true
 		)
 
-public class Ex5_GenerateReport extends AbstractTestNGCucumberTests
+public class Ex5_GenerateReportRunner extends AbstractTestNGCucumberTests
 {
 
 }
