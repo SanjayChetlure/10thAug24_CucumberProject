@@ -1,4 +1,6 @@
 package Steps;
+import org.testng.Assert;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,6 +18,7 @@ public class LoginToAppWithoutTDSteps
 	public void user_enter_username()
 	{
 		System.out.println("Enter UN");
+		
 	}
 
 	@When("user enter password")
@@ -33,6 +36,7 @@ public class LoginToAppWithoutTDSteps
 	@Then("user should be on home page")
 	public void user_should_be_on_home_page() 
 	{
+		//Assert.assertEquals("Hi", "Hello");
 		System.out.println("----Home Page visible---");
 	}
 	

@@ -3,10 +3,7 @@
 <suite name="Suite">
   <test  name="Test">
   	<classes>
-  		<class name="Runner.Ex1_LoginToAppRunner"/>
-  		<class name="Runner.Ex2_MultipleScenarioRunner"/>
-  		<class name="Runner.Ex3_PassTestDataFromFeatureFileToStepsClassRunner"/>
- 	
-  	</classes>  
+  		<class name="Runner.Ex_AllFeatureFilesRunner"/>
+  	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

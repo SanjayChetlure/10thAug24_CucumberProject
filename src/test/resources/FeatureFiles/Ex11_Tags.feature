@@ -9,7 +9,7 @@ And user enter password
 And user click on login btn
 Then user should be on home page
 
-@Smoke
+@Smoke 
 Scenario: verify title of the app
 Given user is on login page
 Then title of the app should be visible
