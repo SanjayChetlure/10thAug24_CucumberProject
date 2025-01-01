@@ -12,7 +12,7 @@ public class DriverFactory
 {
 	public static WebDriver driver;
 	
-	public static WebDriver initializeBrowser(String browserName) throws IOException 
+	public static void initializeBrowser(String browserName) throws IOException 
 	{
 		if (browserName.equalsIgnoreCase("chrome"))
 		{
@@ -29,7 +29,6 @@ public class DriverFactory
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		return driver;
 	}
 
 }
