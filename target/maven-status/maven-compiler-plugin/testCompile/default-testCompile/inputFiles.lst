@@ -1,7 +1,5 @@
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Hooks\AppHooks.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\REHooks\SwagLabHooks.java
-D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\RELoginSteps\RELoginSteps.java
-D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\RERunner\RE1_LoginScenarioRunner.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\Ex10_HooksRunner.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\Ex11_TagsRunner.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\Ex12_RunMultipleFeatureFilesRunner.java
@@ -18,8 +16,14 @@ D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\Ex6_Sc
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\Ex6_ScenarioOutlineRunner.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\Ex8_ScenarionOutline_With_BackgroundKeywordRunner.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\Ex9_DataTableRunner.java
+D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\RE1_SwaglabLoginRunner.java
+D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\RE2_SwagLabProductRunner.java
+D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Runner\RE3_SwagLabOrderRunner.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\DataTableSteps.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\HooksSteps.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\LoginToAppWithoutTDSteps.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\ProfileSteps.java
+D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\RE_OrdersStep.java
+D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\RE_SwagLabLoginSteps.java
+D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\RE_SwagLabProductSteps.java
 D:\10th Aug 2024\Workspace\10thAug24_CucumberProject\src\test\java\Steps\ScenarioOutlineSteps.java

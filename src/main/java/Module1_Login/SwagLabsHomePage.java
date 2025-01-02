@@ -17,16 +17,11 @@ public class SwagLabsHomePage
 	@FindBy(xpath = "(//button[text()='Add to cart'])[1]") private WebElement backPackAddToCart;
 	@FindBy(xpath = "//a[@class='shopping_cart_link']") private WebElement cartLink;
 	
-	
-	
-	
-	
+		
 	public SwagLabsHomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
-	
-	
 	
 	
 	public String getSwagLabsHomePageLogoText() 
@@ -96,6 +91,5 @@ public class SwagLabsHomePage
 	{
 		cartLink.click();
 	}
-	
 	
 }

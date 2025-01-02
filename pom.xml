@@ -6,6 +6,13 @@
   
   <dependencies>
   
+  	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>5.1.0</version>
+	</dependency>
+  
 	  	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 	<dependency>
 	    <groupId>io.cucumber</groupId>
@@ -35,8 +42,7 @@
     <version>4.21.0</version>
 </dependency>
 	
-  	
- 
+  
   </dependencies>
   
    <build>
@@ -54,7 +60,7 @@
           <version>3.5.2</version>
           <configuration>
           	<suiteXmlFiles>
-          		<suiteXmlFile>testng.xml</suiteXmlFile>
+          		<suiteXmlFile>RE_SwagLabSuite.xml</suiteXmlFile>
           	</suiteXmlFiles>
           </configuration>     
         </plugin> 

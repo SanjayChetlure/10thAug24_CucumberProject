@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		)
 
-public class RE1_LoginScenarioRunner extends AbstractTestNGCucumberTests
+public class RE1_SwaglabLoginRunner extends AbstractTestNGCucumberTests
 {
 
 }

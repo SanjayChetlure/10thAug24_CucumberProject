@@ -12,7 +12,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class RESwagLabLoginSteps 
+public class RE_SwagLabLoginSteps 
 {
 	SwagLabsLoginPage login=new SwagLabsLoginPage(DriverFactory.driver);
 	SwagLabsHomePage home=new SwagLabsHomePage(DriverFactory.driver);
@@ -21,35 +21,31 @@ public class RESwagLabLoginSteps
 	public void user_is_on_login() throws IOException, InterruptedException
 	{
 		DriverFactory.driver.get(UtilityClass.getPFData("URL"));
-		Thread.sleep(1000);
 	}
 
 	@When("user enter username on swaglab login page {string}")
-	public void user_enter_username_on_swaglab_login_page(String string) throws InterruptedException
+	public void user_enter_username_on_swaglab_login_page(String UN) throws InterruptedException
 	{
-		login.inpSwagLabsLoginPageUsername(string);
-		Thread.sleep(1000);
+		login.inpSwagLabsLoginPageUsername(UN);
 	}
 
 	@When("user enter password on swaglab login page {string}")
-	public void user_enter_password_on_swaglab_login_page(String string) throws InterruptedException 
+	public void user_enter_password_on_swaglab_login_page(String PWD) throws InterruptedException 
 	{
-		login.inpSwagLabsLoginPagePaswword(string);
-		Thread.sleep(1000);
+		login.inpSwagLabsLoginPagePaswword(PWD);
 	}
 
 	@When("user click on login btn swaglab login page")
 	public void user_click_on_login_btn_swaglab_login_page() throws InterruptedException 
 	{
 		login.clickSwagLabsLoginPageLoginBtn();
-		Thread.sleep(1000);
 	}
 
 	@Then("user should be at SwagLab home page with logo {string}")
-	public void user_should_be_at_swag_lab_home_page_with_logo(String string) 
+	public void user_should_be_at_swag_lab_home_page_with_logo(String expLogoText) 
 	{
 	   String actLogoText = home.getSwagLabsHomePageLogoText();
-	   Assert.assertEquals(actLogoText, string, "Failed- Logo text mismatch");
+	   Assert.assertEquals(actLogoText, expLogoText, "Failed- Logo text mismatch");
 	}
 
 }
